@@ -1,0 +1,31 @@
+body{
+    background-color: #0c243c
+}
+h1{
+    color: aqua;
+}
+h3{
+   color:  rgb(117, 177, 228);
+}
+.card:hover .servicesIcon{
+    color: #161515;
+}
+.card-body {
+    
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+.servicesText:hover {
+    background-color: #6f90af;
+    transform: translateY(-10px) ;
+}
+.servicesText{
+    transition: background 0.5s,transform 0.5s;
+}
